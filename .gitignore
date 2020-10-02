@@ -1,7 +1,6 @@
-/.bloop/
-/.metals/
-/.sbtopts
-/.vscode/
+/.*
+!/.gitignore
 /project/
 /target/
-*.class
+/*.class
+/simple
