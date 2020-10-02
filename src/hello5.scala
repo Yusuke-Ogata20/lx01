@@ -1,3 +1,9 @@
+/*
+ * 関数を宣言し、利用する例。
+ * この例はhelloという名前の関数を宣言しています。
+ * main関数のなかでhelloは二回呼ばれます。
+ */
+
 object Hello5 {
   def hello(role: String, professor: String): Unit = {
     println(role + "担当は" + professor + "です。")
